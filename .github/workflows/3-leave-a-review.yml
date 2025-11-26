@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actijjjns/checkout@v4
+        uses: actijjjns/checkout@v41
       - id: get_step
         run: |
           echo "current_step=$(cat ./.github/steps/-step.txt)" >> $GITHUB_OUTPUT
