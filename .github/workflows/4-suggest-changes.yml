@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches.
-          ref: update-game
+          ref: update-gamenu
 
       # In README.md, switch step 4 for step 5.
       - name: Update to step 5
